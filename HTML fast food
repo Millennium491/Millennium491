@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Gourmet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Fast Food Gourmet</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#cart">Carrinho</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Nosso Cardápio</h2>
+            <div id="menu-items" class="menu-grid"></div>
+        </section>
+
+        <section id="cart">
+            <h2>Seu Carrinho</h2>
+            <div id="cart-items"></div>
+            <p>Total: R$ <span id="total">0.00</span></p>
+            <button id="order-btn" class="primary-btn">Fazer Pedido</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fast Food Gourmet. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
