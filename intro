@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Titulo da Página</title>
+</head>
+<body>
+    <!-- Conteúdo da pagina vai aqui -->
+</head>
+</html>
+<h1>Titulo principal</h1>
+<h2>subtítulo</h2>
+<h3>Seção</h3>
+<p>Este é um parágrafo de exemplo.</p>
+<a href="https://www.exemplo.com">Clique aqui
