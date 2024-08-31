@@ -1,0 +1,122 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pizza Express</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<h1>Pizza Express</h1>
+		<nav>
+			<a href="#cardapio">Cardápio</a>
+			<a href="#promocoes">Promoções</a>
+			<a href="#carrinho">Carrinho</a>
+			<a href="#contato">Contato</a>
+		</nav>
+	</header>
+
+	<main>
+		<section id="cardapio">
+			<h2>Cardápio</h2>
+			<div class="pizza-card">
+				<h3>Margherita</h3>
+				<img src="https://st.depositphotos.com/1003814/5052/i/450/depositphotos_50523105-stock-photo-pizza-with-tomatoes.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 600px; height: 234px; margin: 0px; width: 351px;" alt="Fotos de Pizza margarita, Imagens de Pizza margarita sem royalties |  Depositphotos" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Margherita">
+				<p>Queijo, tomate e manjericão.</p>
+				<p>R$ 29,90</p>
+				<button onclick="adicionarAoCarrinho('Margherita', 29.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-card">
+				<h3>Calabresa</h3>
+				<img src="https://img.freepik.com/fotos-premium/uma-pizza-com-calabresa-e-queijo-em-uma-mesa_581634-15728.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 626px; height: 197px; margin: 0px; width: 351px;" alt="Uma pizza com calabresa e queijo em uma mesa | imagem Premium gerada com IA" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Calabresa">
+				<p>Queijo, calabresa e cebola.</p>
+				<p>R$ 32,90</p>
+				<button onclick="adicionarAoCarrinho('Calabresa', 32.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-card">
+				<h3>Quatro Queijos</h3>
+				<img src="https://img.freepik.com/fotos-premium/uma-fatia-de-pizza-italiana-quente-com-queijo-de-alongamento-pizza-quatro-queijos-com-manjericao_79782-3174.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 626px; height: 234px; margin: 0px; width: 351px;" alt="Uma fatia de pizza italiana quente com queijo de alongamento Pizza quatro  queijos com manjericão | Foto Premium" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Quatro Queijos">
+				<p>Queijo mozzarella, parmesão, gorgonzola e provolone.</p>
+				<p>R$ 35,90</p>
+				<button onclick="adicionarAoCarrinho('Quatro Queijos', 35.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-card">
+				<h3>Portuguesa</h3>
+				<img src="https://maisreceitassite.wordpress.com/wp-content/uploads/2016/02/receita-de-pizza-portuguesa-1.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 608px; height: 219px; margin: 0px; width: 350px;" alt="Pizza Portuguesa – maisreceitassite" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Portuguesa">
+				<p>Queijo, presunto, ovo, cebola e azeitonas.</p>
+				<p>R$ 34,90</p>
+				<button onclick="adicionarAoCarrinho('Portuguesa', 34.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-card">
+				<h3>Frango com Catupiry</h3>
+				<img src="https://i.pinimg.com/originals/6b/16/c6/6b16c64e378240f274f7760488983e60.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 956px; height: 184px; margin: 0px; width: 351px;" alt="Receita De Pizza Gourmet De Frango Com Catupiry: Veja Como Fazer!" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Frango com Catupiry">
+				<p>Queijo, frango desfiado e catupiry.</p>
+				<p>R$ 36,90</p>
+				<button onclick="adicionarAoCarrinho('Frango com Catupiry', 36.90)">Adicionar ao Carrinho</button>
+			</div>
+		</section>
+
+		<section id="promocoes">
+			<h2>Promoções</h2>
+			<div class="pizza-card promo">
+				<h3>Margherita em Promoção</h3>
+				<img src="https://st.depositphotos.com/1003814/5052/i/450/depositphotos_50523105-stock-photo-pizza-with-tomatoes.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 600px; height: 234px; margin: 0px; width: 351px;" alt="Fotos de Pizza margarita, Imagens de Pizza margarita sem royalties |  Depositphotos" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Margherita">
+				<p>Queijo, tomate e manjericão.</p>
+				<p><span class="original-preco">R$ 29,90</span> <span class="promo-preco">R$ 24,90</span></p>
+				<button onclick="adicionarAoCarrinho('Margherita', 24.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-card promo">
+				<h3>Calabresa em Promoção</h3>
+				<img src="https://img.freepik.com/fotos-premium/uma-pizza-com-calabresa-e-queijo-em-uma-mesa_581634-15728.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 626px; height: 197px; margin: 0px; width: 351px;" alt="Uma pizza com calabresa e queijo em uma mesa | imagem Premium gerada com IA" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Calabresa">
+				<p>Queijo, calabresa e cebola.</p>
+				<p><span class="original-preco">R$ 32,90</span> <span class="promo-preco">R$ 28,90</span></p>
+				<button onclick="adicionarAoCarrinho('Calabresa', 28.90)">Adicionar ao Carrinho</button>
+			</div>
+			<!-- Outras promoções podem ser adicionadas aqui -->
+		</section>
+
+		<section id="carrinho">
+			<h2>Carrinho</h2>
+			<ul id="carrinho-list"></ul>
+			<p id="total">Total: R$ 0,00</p>
+
+			<form id="form-compra" onsubmit="return processarCompra()">
+				<h3>Finalizar Compra</h3>
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="endereco">Endereço:</label>
+				<input type="text" id="endereco" name="endereco" required>
+
+				<label for="telefone">Telefone:</label>
+				<input type="tel" id="telefone" name="telefone" required>
+
+				<button type="submit">Confirmar Compra</button>
+			</form>
+			</section>
+			<a href="https://parceiros.ifood.com.br/">Restaurantes parceiros - aperte aqui para se cadastrar!</a>
+		</section>
+
+		<section id="contato">
+			<h2>Contato</h2>
+			<p>Entre em contato conosco pelo e-mail: contato@pizzaexpress.com.br</p>
+			<p>Telefone: 99521-6277</p>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2024 Pizza Express</p>
+		<a href="sobre.html">Sobre Nós</a> | <a href="#">Promoções</a> | <a href="#">Política de Privacidade</a> | <a
+			href="#">Termos e Condições</a> | <a href="#">FAQ</a>
+	</footer>
+
+	<script src="scripts.js"></script>
+</body>
+
+</html>
