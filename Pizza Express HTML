@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pizza Express</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<h1>Pizza Express</h1>
+		<nav>
+			<a href="#cardapio">Cardápio</a>
+			<a href="#tipos">Tipos de Pizza</a>
+			<a href="#promocoes">Promoções</a>
+			<a href="#carrinho">Carrinho</a>
+			<a href="#contato">Contato</a>
+		</nav>
+	</header>
+
+	<main>
+		<section id="cardapio">
+			<h2>Cardápio</h2>
+			<!-- Adicione o conteúdo do cardápio aqui -->
+			<p>Confira nossas deliciosas pizzas no cardápio abaixo.</p>
+		</section>
+
+		<section id="tipos">
+			<h2>Tipos de Pizza</h2>
+			<div class="pizza-tipo">
+				<h3>Margarita</h3>
+				<p>Molho de tomate, queijo mussarela, manjericão.</p>
+				<img src="https://img.freepik.com/premium-photo/italian-pizza-margherita-black-background_356194-1114.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 626px; height: 233px; margin: 0px; width: 351px;" alt="Premium Photo | Italian pizza Margherita on black background" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Margherita">
+				<p>R$ 29,90</p>
+				<button onclick="adicionarAoCarrinho('Margherita', 29.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-tipo">
+				<h3>Pepperoni</h3>
+				<p>Molho de tomate, queijo mussarela, pepperoni.</p>
+				<img src="https://media-cdn.tripadvisor.com/media/photo-s/06/08/c5/fb/pepperoni-classica.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 550px; height: 234px; margin: 0px; width: 351px;" alt="Marguerita – Foto de Splash Pizza, Manaus - Tripadvisor" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Pepperoni">
+				<p>R$ 34,90</p>
+				<button onclick="adicionarAoCarrinho('Pepperoni', 34.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-tipo">
+				<h3>Quatro Queijos</h3>
+				<p>Molho de tomate, queijo mussarela, queijo parmesão, queijo gorgonzola, queijo provolone.</p>
+				<img src="https://img.freepik.com/fotos-gratis/pizza-margarita-classica-com-queijo-parmesao-completo_114579-2271.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 626px; height: 228px; margin: 0px; width: 351px;" alt="Pizza margarita clássica com queijo parmesão completo | Foto Grátis" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Quatro Queijos">
+				<p>R$ 39,90</p>
+				<button onclick="adicionarAoCarrinho('Quatro Queijos', 39.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-tipo">
+				<h3>Vegetariana</h3>
+				<p>Molho de tomate, queijo mussarela, legumes variados.</p>
+				<img src="https://png.pngtree.com/thumb_back/fw800/background/20231013/pngtree-scrumptious-vegan-pizza-showcasing-the-flavors-of-olives-red-pepper-and-image_13655653.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 960px; height: 197px; margin: 0px; width: 351px;" alt="Fundo Deliciosa Pizza Vegana Apresentando Os Sabores De Azeitonas Pimenta  Vermelha E Tomate Uma Deliciosa Textura Alimentar Fundo, Vista De Cima Da  Pizza, Pizza Italiana, Pizza Imagem de plano de fundo para" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Vegetariana">
+				<p>R$ 31,90</p>
+				<button onclick="adicionarAoCarrinho('Vegetariana', 31.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-tipo">
+				<h3>Frango com Catupiry</h3>
+				<p>Molho de tomate, queijo mussarela, frango desfiado, catupiry.</p>
+				<img src="https://i.pinimg.com/originals/6b/16/c6/6b16c64e378240f274f7760488983e60.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 956px; height: 184px; margin: 0px; width: 351px;" alt="Receita De Pizza Gourmet De Frango Com Catupiry: Veja Como Fazer!" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Frango com Catupiry">
+				<p>R$ 36,90</p>
+				<button onclick="adicionarAoCarrinho('Frango com Catupiry', 36.90)">Adicionar ao Carrinho</button>
+			</div>
+		</section>
+
+		<section id="promocoes">
+			<h2>Promoções</h2>
+			<div class="pizza-tipo">
+				<h3>Margarita - Promoção</h3>
+				<p>Molho de tomate, queijo mussarela, manjericão.</p>
+				<img src="https://img.freepik.com/premium-photo/italian-pizza-margherita-black-background_356194-1114.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 626px; height: 233px; margin: 0px; width: 351px;" alt="Premium Photo | Italian pizza Margherita on black background" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Margherita">
+				<p>R$ 24,90</p>
+				<button onclick="adicionarAoCarrinho('Margherita - Promoção', 24.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-tipo">
+				<h3>Pepperoni - Promoção</h3>
+				<p>Molho de tomate, queijo mussarela, pepperoni.</p>
+				<img src="https://media-cdn.tripadvisor.com/media/photo-s/06/08/c5/fb/pepperoni-classica.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 550px; height: 234px; margin: 0px; width: 351px;" alt="Marguerita – Foto de Splash Pizza, Manaus - Tripadvisor" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Pepperoni">
+				<p>R$ 29,90</p>
+				<button onclick="adicionarAoCarrinho('Pepperoni - Promoção', 29.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-tipo">
+				<h3>Quatro Queijos - Promoção</h3>
+				<p>Molho de tomate, queijo mussarela, queijo parmesão, queijo gorgonzola, queijo provolone.</p>
+				<img src="https://img.freepik.com/fotos-gratis/pizza-margarita-classica-com-queijo-parmesao-completo_114579-2271.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 626px; height: 228px; margin: 0px; width: 351px;" alt="Pizza margarita clássica com queijo parmesão completo | Foto Grátis" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Quatro Queijos">
+				<p>R$ 34,90</p>
+				<button onclick="adicionarAoCarrinho('Quatro Queijos - Promoção', 34.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-tipo">
+				<h3>Vegetariana - Promoção</h3>
+				<p>Molho de tomate, queijo mussarela, legumes variados.</p>
+				<img src="https://png.pngtree.com/thumb_back/fw800/background/20231013/pngtree-scrumptious-vegan-pizza-showcasing-the-flavors-of-olives-red-pepper-and-image_13655653.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 960px; height: 197px; margin: 0px; width: 351px;" alt="Fundo Deliciosa Pizza Vegana Apresentando Os Sabores De Azeitonas Pimenta  Vermelha E Tomate Uma Deliciosa Textura Alimentar Fundo, Vista De Cima Da  Pizza, Pizza Italiana, Pizza Imagem de plano de fundo para" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Vegetariana">
+				<p>R$ 26,90</p>
+				<button onclick="adicionarAoCarrinho('Vegetariana - Promoção', 26.90)">Adicionar ao Carrinho</button>
+			</div>
+			<div class="pizza-tipo">
+				<h3>Frango com Catupiry - Promoção</h3>
+				<p>Molho de tomate, queijo mussarela, frango desfiado, catupiry.</p>
+				<img src="https://i.pinimg.com/originals/6b/16/c6/6b16c64e378240f274f7760488983e60.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 956px; height: 184px; margin: 0px; width: 351px;" alt="Receita De Pizza Gourmet De Frango Com Catupiry: Veja Como Fazer!" jsname="kn3ccd" aria-hidden="false"> <alt="Pizza Frango com Catupiry">
+				<p>R$ 31,90</p>
+				<button onclick="adicionarAoCarrinho('Frango com Catupiry - Promoção', 31.90)">Adicionar ao Carrinho</button>
+			</div>
+		</section>
+
+		<section id="carrinho">
+			<h2>Carrinho</h2>
+			<ul id="carrinho-list">
+				<!-- Itens do carrinho serão listados aqui -->
+			</ul>
+			<p id="total">Total: R$ 0,00</p>
+
+			<form id="form-compra" onsubmit="return processarCompra()">
+				<h3>Finalizar Compra</h3>
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="endereco">Endereço:</label>
+				<input type="text" id="endereco" name="endereco" required>
+
+				<label for="telefone">Telefone:</label>
+				<input type="tel" id="telefone" name="telefone" required>
+
+				<button type="submit">Confirmar Compra</button>
+			</form>
+		</section>
+			</section>
+			<a href="https://parceiros.ifood.com.br/">Restaurantes parceiros - aperte aqui para se cadastrar!</a>
+
+		<section id="contato">
+			<h2>Contato</h2>
+			<p>Entre em contato conosco pelo e-mail: contato@pizzaexpress.com.br</p>
+			<p>Entre em contato conosco pelo e-mail: contato@pizzaexpress.com.br</p>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2024 Pizza Express</p>
+		<a href="sobre.html">Sobre Nós</a> | <a href="#">Promoções</a> | <a href="#">Política de Privacidade</a> | <a
+			href="#">Termos e Condições</a> | <a href="#">FAQ</a>
+	</footer>
+
+	<script src="scripts.js"></script>
+</body>
+
+</html>
