@@ -1,4 +1,4 @@
-## Hi there 👋
+## João 16:33 "Tenho-vos dito essas coisas para que em mim tenhais paz; no mundo tereis aflição, mas tende bom ânimo, eu venci o mundo"
 
 <!--
 **Millennium491/Millennium491** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
